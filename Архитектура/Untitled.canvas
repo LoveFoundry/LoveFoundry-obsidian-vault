@@ -1,11 +1,7 @@
 {
 	"nodes":[
-		{"id":"6c4f7966e03b11cc","x":-232,"y":-167,"width":250,"height":50,"type":"text","text":""},
-		{"id":"8e77577341ee3b95","type":"text","text":"","x":-20,"y":-40,"width":250,"height":50},
-		{"id":"0e8d5b78492a8f5c","type":"text","text":"","x":-482,"y":-15,"width":250,"height":50}
+		{"id":"2ce54f8ad32ae929","type":"text","text":"Web-server Telegram\ntg.","x":-300,"y":-200,"width":250,"height":60},
+		{"id":"5292161b049f8601","type":"text","text":"Web-server VK","x":40,"y":-200,"width":250,"height":60}
 	],
-	"edges":[
-		{"id":"f0c8c270eea48dae","fromNode":"0e8d5b78492a8f5c","fromSide":"top","toNode":"6c4f7966e03b11cc","toSide":"left"},
-		{"id":"107dd0a401e70c55","fromNode":"6c4f7966e03b11cc","fromSide":"bottom","toNode":"0e8d5b78492a8f5c","toSide":"top"}
-	]
+	"edges":[]
 }
