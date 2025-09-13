@@ -1,7 +1,21 @@
 {
 	"nodes":[
-		{"id":"2ce54f8ad32ae929","type":"text","text":"Web-server Telegram\ntg.","x":-300,"y":-200,"width":250,"height":60},
-		{"id":"5292161b049f8601","type":"text","text":"Web-server VK","x":40,"y":-200,"width":250,"height":60}
+		{"id":"8132c5610aebbe4f","x":-125,"y":123,"width":250,"height":60,"type":"text","text":""},
+		{"id":"2ce54f8ad32ae929","type":"text","text":"Web-server Telegram\ntg.LoveFoundry.ru","x":-300,"y":-200,"width":250,"height":60},
+		{"id":"5292161b049f8601","type":"text","text":"Web-server VK\nvk.LoveFoundry.ru","x":40,"y":-200,"width":250,"height":60},
+		{"id":"a850804c61dc166b","x":-140,"y":-60,"width":250,"height":60,"type":"text","text":"trefik reverse-proxy"},
+		{"id":"5e7b2978338d5487","type":"text","text":"auth telegram","x":-480,"y":-60,"width":250,"height":60},
+		{"id":"0f162dd5096359e0","type":"text","text":"auth VK","x":200,"y":-60,"width":250,"height":60},
+		{"id":"f386016be2ceea8a","x":-140,"y":80,"width":250,"height":60,"type":"text","text":"API Getaway"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
+		{"id":"72998b8d77a6f095","fromNode":"5292161b049f8601","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
+		{"id":"fe35078593206883","fromNode":"5e7b2978338d5487","fromSide":"right","toNode":"a850804c61dc166b","toSide":"left"},
+		{"id":"5f56ab0a4b3b63b1","fromNode":"a850804c61dc166b","fromSide":"left","toNode":"5e7b2978338d5487","toSide":"right"},
+		{"id":"7184b868c7a011d5","fromNode":"a850804c61dc166b","fromSide":"right","toNode":"0f162dd5096359e0","toSide":"left"},
+		{"id":"b3a25ac22a135907","fromNode":"0f162dd5096359e0","fromSide":"left","toNode":"a850804c61dc166b","toSide":"right"},
+		{"id":"2e203e23a73d8a01","fromNode":"a850804c61dc166b","fromSide":"bottom","toNode":"f386016be2ceea8a","toSide":"top"},
+		{"id":"0f2c5803c934a3be","fromNode":"f386016be2ceea8a","fromSide":"top","toNode":"a850804c61dc166b","toSide":"bottom"}
+	]
 }
