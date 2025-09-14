@@ -5,7 +5,8 @@
 		{"id":"a850804c61dc166b","x":-140,"y":-60,"width":250,"height":60,"type":"text","text":"Traefik reverse-proxy"},
 		{"id":"5e7b2978338d5487","type":"text","text":"Auth Telegram","x":-480,"y":-60,"width":250,"height":60},
 		{"id":"0f162dd5096359e0","type":"text","text":"Auth VK","x":200,"y":-60,"width":250,"height":60},
-		{"id":"8132c5610aebbe4f","x":-370,"y":120,"width":250,"height":60,"type":"text","text":"BFF агрегатор "}
+		{"id":"e632970b9aca0455","x":-420,"y":160,"width":280,"height":200,"type":"text","text":""},
+		{"id":"8132c5610aebbe4f","x":-405,"y":180,"width":250,"height":60,"type":"text","text":"BFF агрегатор "}
 	],
 	"edges":[
 		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
