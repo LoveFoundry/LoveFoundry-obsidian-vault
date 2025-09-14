@@ -2,11 +2,11 @@
 	"nodes":[
 		{"id":"2ce54f8ad32ae929","type":"text","text":"Web-server Telegram\ntg.LoveFoundry.ru","x":-300,"y":-200,"width":250,"height":60},
 		{"id":"5292161b049f8601","type":"text","text":"Web-server VK\nvk.LoveFoundry.ru","x":40,"y":-200,"width":250,"height":60},
-		{"id":"a850804c61dc166b","x":-140,"y":-60,"width":250,"height":60,"type":"text","text":"Traefik reverse-proxy"},
+		{"id":"a850804c61dc166b","type":"text","text":"Traefik reverse-proxy","x":-140,"y":-60,"width":250,"height":60},
 		{"id":"5e7b2978338d5487","type":"text","text":"Auth Telegram","x":-480,"y":-60,"width":250,"height":60},
 		{"id":"0f162dd5096359e0","type":"text","text":"Auth VK","x":200,"y":-60,"width":250,"height":60},
-		{"id":"e632970b9aca0455","x":-420,"y":160,"width":280,"height":200,"type":"text","text":""},
-		{"id":"8132c5610aebbe4f","x":-405,"y":180,"width":250,"height":60,"type":"text","text":"BFF агрегатор "}
+		{"id":"e632970b9aca0455","type":"text","text":"","x":-420,"y":160,"width":280,"height":200},
+		{"id":"8132c5610aebbe4f","type":"text","text":"BFF агрегатор ","x":-140,"y":40,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
