@@ -5,8 +5,11 @@
 		{"id":"a850804c61dc166b","type":"text","text":"Traefik reverse-proxy","x":-140,"y":-60,"width":250,"height":60},
 		{"id":"5e7b2978338d5487","type":"text","text":"Auth Telegram","x":-480,"y":-60,"width":250,"height":60},
 		{"id":"0f162dd5096359e0","type":"text","text":"Auth VK","x":200,"y":-60,"width":250,"height":60},
-		{"id":"e632970b9aca0455","type":"text","text":"","x":-420,"y":160,"width":280,"height":200},
-		{"id":"8132c5610aebbe4f","type":"text","text":"BFF агрегатор ","x":-140,"y":40,"width":250,"height":60}
+		{"id":"1b2b3e4afd5cb2f9","type":"text","text":"Auth Data Base\nuserID uuid\npassword Hash\nrefreshToken (под вопросом)\n\n","x":600,"y":-95,"width":280,"height":130},
+		{"id":"e632970b9aca0455","type":"text","text":"Auth Data Base\nuserID uuid\npassword Hash\nrefreshToken (под вопросом)\n\n","x":-940,"y":-95,"width":280,"height":130},
+		{"id":"8132c5610aebbe4f","type":"text","text":"BFF агрегатор ","x":-140,"y":80,"width":250,"height":60},
+		{"id":"118d30e7b4574d9e","x":-660,"y":220,"width":278,"height":77,"type":"text","text":"Profile - сервис информации о пользователе"},
+		{"id":"9fdf608073e01b2e","x":-598,"y":203,"width":250,"height":137,"type":"text","text":"Profile Data Base\n\nfirstName text\nlastName text\nage int\n"}
 	],
 	"edges":[
 		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
@@ -14,6 +17,10 @@
 		{"id":"fe35078593206883","fromNode":"5e7b2978338d5487","fromSide":"right","toNode":"a850804c61dc166b","toSide":"left"},
 		{"id":"5f56ab0a4b3b63b1","fromNode":"a850804c61dc166b","fromSide":"left","toNode":"5e7b2978338d5487","toSide":"right"},
 		{"id":"7184b868c7a011d5","fromNode":"a850804c61dc166b","fromSide":"right","toNode":"0f162dd5096359e0","toSide":"left"},
-		{"id":"b3a25ac22a135907","fromNode":"0f162dd5096359e0","fromSide":"left","toNode":"a850804c61dc166b","toSide":"right"}
+		{"id":"b3a25ac22a135907","fromNode":"0f162dd5096359e0","fromSide":"left","toNode":"a850804c61dc166b","toSide":"right"},
+		{"id":"7c44958b3636c46d","fromNode":"0f162dd5096359e0","fromSide":"right","toNode":"1b2b3e4afd5cb2f9","toSide":"left"},
+		{"id":"22d626bc7b3fa376","fromNode":"5e7b2978338d5487","fromSide":"left","toNode":"e632970b9aca0455","toSide":"right"},
+		{"id":"5768c4350b23333e","fromNode":"a850804c61dc166b","fromSide":"bottom","toNode":"8132c5610aebbe4f","toSide":"top"},
+		{"id":"379c6bc49175cf59","fromNode":"8132c5610aebbe4f","fromSide":"top","toNode":"a850804c61dc166b","toSide":"bottom"}
 	]
 }
