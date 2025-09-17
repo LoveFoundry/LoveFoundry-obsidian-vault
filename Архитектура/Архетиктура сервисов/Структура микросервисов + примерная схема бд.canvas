@@ -14,8 +14,8 @@
 		{"id":"3bde388844fdc4d3","type":"text","text":"Profile Data Base (redis)\nuser_id uuid primary\nstatus enum","x":-940,"y":360,"width":250,"height":80},
 		{"id":"e632970b9aca0455","type":"text","text":"Auth Data Base\nuserID uuid\npassword Hash\nrefreshToken (под вопросом)\ncreated_at timestampz \n\n","x":-940,"y":-107,"width":280,"height":155},
 		{"id":"9fdf608073e01b2e","type":"text","text":"Profile Data Base\nid uuid primary\nfirstName varchar(255)\nlastName varchar(255)\nage int\nzodiac enum\navatar varchar(255)\nlevel enum","x":-940,"y":80,"width":250,"height":220},
-		{"id":"eb8d5aaaa6fa3389","type":"text","text":"Presence - сервис информации о статусе (в сети/не в сети)","x":650,"y":360,"width":300,"height":80},
-		{"id":"1d819cec0d38d0e0","type":"text","text":"Statistic Data Base (redis)\nuser_id uuid primary\nstatus enum","x":290,"y":360,"width":250,"height":80}
+		{"id":"eb8d5aaaa6fa3389","type":"text","text":"Presence - сервис информации о статусе (в сети/не в сети)","x":375,"y":360,"width":300,"height":80},
+		{"id":"1d819cec0d38d0e0","type":"text","text":"Statistic Data Base (redis)\nuser_id uuid primary\nstatus enum","x":755,"y":360,"width":250,"height":80}
 	],
 	"edges":[
 		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
@@ -44,7 +44,7 @@
 		{"id":"566ffa86ddc02b72","fromNode":"3bde388844fdc4d3","fromSide":"right","toNode":"a91598e19d76036a","toSide":"left"},
 		{"id":"aaa995f015a980e3","fromNode":"8132c5610aebbe4f","fromSide":"bottom","toNode":"a91598e19d76036a","toSide":"right"},
 		{"id":"32e1298f7af38f47","fromNode":"a91598e19d76036a","fromSide":"right","toNode":"8132c5610aebbe4f","toSide":"bottom"},
-		{"id":"62f2307dbc9af2c1","fromNode":"eb8d5aaaa6fa3389","fromSide":"left","toNode":"1d819cec0d38d0e0","toSide":"right"},
-		{"id":"c0758511bd483640","fromNode":"1d819cec0d38d0e0","fromSide":"left","toNode":"8132c5610aebbe4f","toSide":"bottom"}
+		{"id":"238a5fea505cd86a","fromNode":"eb8d5aaaa6fa3389","fromSide":"left","toNode":"8132c5610aebbe4f","toSide":"bottom"},
+		{"id":"62d41c8930aadd72","fromNode":"1d819cec0d38d0e0","fromSide":"left","toNode":"eb8d5aaaa6fa3389","toSide":"right"}
 	]
 }
