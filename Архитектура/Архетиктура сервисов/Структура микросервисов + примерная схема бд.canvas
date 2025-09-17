@@ -15,7 +15,7 @@
 		{"id":"e632970b9aca0455","type":"text","text":"Auth Data Base\nuserID uuid\npassword Hash\nrefreshToken (под вопросом)\ncreated_at timestampz \n\n","x":-940,"y":-107,"width":280,"height":155},
 		{"id":"9fdf608073e01b2e","type":"text","text":"Profile Data Base\nid uuid primary\nfirstName varchar(255)\nlastName varchar(255)\nage int\nzodiac enum\navatar varchar(255)\nlevel enum","x":-940,"y":80,"width":250,"height":220},
 		{"id":"eb8d5aaaa6fa3389","type":"text","text":"Presence - сервис информации о статусе (в сети/не в сети)","x":650,"y":360,"width":300,"height":80},
-		{"id":"1d819cec0d38d0e0","type":"text","text":"Profile Data Base (redis)\nuser_id uuid primary\nstatus enum","x":290,"y":360,"width":250,"height":80}
+		{"id":"1d819cec0d38d0e0","type":"text","text":"Statistic Data Base (redis)\nuser_id uuid primary\nstatus enum","x":290,"y":360,"width":250,"height":80}
 	],
 	"edges":[
 		{"id":"f6fa810470c9e6f3","fromNode":"2ce54f8ad32ae929","fromSide":"bottom","toNode":"a850804c61dc166b","toSide":"top"},
